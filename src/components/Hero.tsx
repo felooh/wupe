@@ -2,6 +2,7 @@ import { couple, ceremony, venue, content, mapsDirectionsUrl } from "../config/e
 import { Button, Detail } from "./ui/Primitives";
 import { Flourish, Pampas } from "./ui/Flourish";
 import { PinIcon, CalendarIcon, ClockIcon, ArrowRightIcon } from "./ui/Icons";
+import couplePhoto from "../assets/couple.png";
 
 /** Staggered entrance: each line arrives a beat after the one above it. */
 const rise = (ms: number) => ({
@@ -47,6 +48,27 @@ export function Hero() {
         />
 
         <div className="relative">
+          {/* The couple, standing in the dome of the arch and fading into it. */}
+          <figure {...rise(380)} className="relative mx-auto mb-5 w-full max-w-[17rem] sm:max-w-xs">
+            <div
+              className="pointer-events-none absolute inset-x-4 top-6 bottom-2 rounded-full bg-copper/20 blur-3xl"
+              aria-hidden="true"
+            />
+            <img
+              src={couplePhoto}
+              alt={`${couple.brideFullName} and ${couple.groomFullName}`}
+              width={612}
+              height={408}
+              fetchPriority="high"
+              decoding="async"
+              className="relative h-auto w-full"
+              style={{
+                maskImage: "linear-gradient(to bottom, black 70%, transparent)",
+                WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent)",
+              }}
+            />
+          </figure>
+
           <p {...rise(500)} className="kicker text-[0.58rem] text-linen/70 sm:text-[0.68rem]">
             {ceremony.kicker}
           </p>
