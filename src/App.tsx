@@ -41,7 +41,7 @@ export default function App() {
         <Location />
         <Directions />
         <TransportHelp />
-        <Gallery />
+        {/* <Gallery /> */}
         <FamilyFriends />
         <RSVP />
         <FinalInvitation />
