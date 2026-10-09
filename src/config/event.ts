@@ -351,7 +351,7 @@ export const programme = {
         "Meals and Refreshments",
         "Introductions and Advice to the couple from both families",
         "Word for the ceremony \u2013 Rev. Menego Kipruto",
-        "Gifting Session"
+        "Gifting Session",
         "Cake cutting \u2013 Mummy Kitala",
         "Vote of thanks from the groom\u2019s uncle and the bride\u2019s uncle",
         "Closing prayer \u2013 Rev. Maria",
