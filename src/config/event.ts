@@ -94,10 +94,10 @@ export const contacts: Array<{
   whatsapp: Placeholder;
 }> = [
   {
-    name: "Felix Mwendia",
+    name: "Andrew",
     role: "Transport & directions",
-    phone: "+254741777695",
-    whatsapp: "+254741777695",
+    phone: "+254727436422",
+    whatsapp: "+254727436422",
   },
   {
     name: "", // ### TODO second contact, or delete this whole block
