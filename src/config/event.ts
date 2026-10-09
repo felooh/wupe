@@ -340,7 +340,7 @@ export const programme = {
     //   points: ["Both sides to prepare gifts such as lesos, vikoi, nazi and deras."],
     // },
     {
-      time: "1:00 \u2013 2:30 PM",
+      time: "1:00 \u2013 3:30 PM",
       title: "Lunch, Entertainment & Family Advice",
       intro: "",
       points: [
